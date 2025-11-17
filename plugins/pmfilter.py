@@ -1765,7 +1765,7 @@ async def auto_filter(client, msg, spoll=False):
                 message_text = message.text or ""
                 search = message_text.lower()
 
-                stick_id = "CAACAgUAAxkBAAEPzhlpG0eUCvR2bElgp0T4X3jT2PFRqQACtRcAArmLAVTmgrNoN3RJlDYE"
+                stick_id = "CAACAgUAAxkBAAEPzixpG0oewZKtyI1ajt0hZUc2PkEFfQACexkAAueWIVfkESRaPBBdoTYE"
                 keyboard = InlineKeyboardMarkup(
                     [[InlineKeyboardButton(f'🔎 sᴇᴀʀᴄʜɪɴɢ {search}', callback_data="hiding")]]
                 )
